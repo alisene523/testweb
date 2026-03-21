@@ -26,3 +26,6 @@ p{
 a:link{
     color:aliceblue;
 }
+a:hover{
+    color:rgb(180, 213, 255);
+}
