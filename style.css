@@ -51,8 +51,3 @@ a:hover{
   background-color: rgb(180, 213, 255);
   color: black;
 }
-
-#navbar a.active {
-  background-color: rgb(13, 37, 68);
-  color: aliceblue;
-}
