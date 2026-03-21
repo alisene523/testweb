@@ -13,7 +13,12 @@ h2{
     color:aliceblue;
     padding: 10px 20px;
 }
-p {
+.bildes {
     width: 300px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
+}
+p{
+    width: 300px;
+    padding: 10px 20px;
+    background-color:rgb(79, 127, 167);
 }
