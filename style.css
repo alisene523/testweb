@@ -51,3 +51,6 @@ a:hover{
   background-color: rgb(180, 213, 255);
   color: black;
 }
+#navbar a:active{
+    background-color:rgb(18, 45, 68);
+}
