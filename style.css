@@ -7,6 +7,9 @@ h1 {
     size: 28px;
 }
 h2{
+    background-color:rgb(47, 85, 116);
+    padding: 10px 20px;
     font-family: 'Times New Roman', Times, serif;
     size: 18px;
+
 }
