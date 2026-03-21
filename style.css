@@ -4,5 +4,9 @@ body{
 }
 h1 {
     font-family:'Times New Roman', Times, serif;
+    size: 28px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
     size: 18px;
 }
