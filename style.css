@@ -29,3 +29,30 @@ a:link{
 a:hover{
     color:rgb(180, 213, 255);
 }
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: rgb(47, 85, 116);
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+#navbar a:hover {
+  background-color: rgb(180, 213, 255);
+  color: black;
+}
+
+#navbar a.active {
+  background-color: rgb(13, 37, 68);
+  color: aliceblue;
+}
