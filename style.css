@@ -2,3 +2,7 @@ body{
     background-image: url("background1.jpg");
     background-color:#cccccc;
 }
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    size: 18px;
+}
