@@ -24,7 +24,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <form>
             <div>
                <p>Ievadi šodienas datumu: <input type="date" name="datums"></p>
-               
+               <p>Ja gribi uzzināt šodienas datumu, spied pogu DATUMS 
+            <input onclick="datums.value=new Date();" name="poga" value="DATUMS" type="button">
+        </p>
+        <p>Ja gribi izdzēst datumua lodziņa saturu, spied pogu RESET
+            <input value="RESET" type="reset">
+        </p>
             </div>
         </form>
 
