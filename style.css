@@ -1,0 +1,56 @@
+body{
+    background-image: url("background1.jpg");
+    background-color:#cccccc;
+}
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    size: 28px;
+}
+h2{
+    background-color:rgb(47, 85, 116);
+    font-family: 'Times New Roman', Times, serif;
+    size: 18px;
+    color:aliceblue;
+    padding: 10px 20px;
+}
+.bildes {
+    padding: 10px 20px;
+}
+p{
+    width: 300px;
+    padding: 10px 20px;
+    background-color:rgb(108, 159, 201);
+    font-weight:bold;
+    size:16px;
+}
+a:link{
+    color:aliceblue;
+}
+a:hover{
+    color:rgb(180, 213, 255);
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: rgb(47, 85, 116);
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+#navbar a:hover {
+  background-color: rgb(180, 213, 255);
+  color: black;
+}
+#navbar a.active{
+    background-color:rgb(18, 45, 68);
+}

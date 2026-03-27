@@ -1,12 +1,29 @@
 <!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
 <html>
-<body>
-<script>
+    <head>
+        <title>Datorika!</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="index.html">Portfolio</a>
+            <a href="otrais.html">Otrais</a>
+            <a href="formas.html">Formas</a>
+            <a class = "active" href="dzer.html">Dzer</a>
+            <a href="dzerdaudz.html">Dzer daudz</a>
+        </div>
+    <script>
 function maksa(){
 	let dz = document.getElementsByName('drink');
     for(i = 0; i < dz.length; i++) {
        if(dz[i].checked)
-      	document.getElementById("poga").value=dz[i].value;
+      	document.getElementById("rezultats").innerText=dz[i].value;
 	}
  }   
 </script>
@@ -19,7 +36,8 @@ function maksa(){
   <input type="radio" id="kakao" name="drink" value="3.20">
   <label for="kakao">kakao</label><br><br>
   <input type="button" id="poga" value="jāmaksā" onclick="maksa()">
+  <span id="rezultats"></span>
 </form> 
-</body>
-</html>
 
+    </body>
+</html>
